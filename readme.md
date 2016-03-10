@@ -22,7 +22,7 @@ a. Fork or just clone this repo directly
 $ git clone https://github.com/cescgie/lumen-rest-api.git
 ```
 
-b. Create new database in your server
+b. Create new database
 
 c. Rename .env.example to .env and it set the config database details
 ```
@@ -40,17 +40,17 @@ $ php artisan migrate:install
 
 d. Run the migration to create the table on the database
 ```
-php artisan migrate
+$ php artisan migrate
 ```
 
 e. Seed the dummy data which stored in database/seeds
 ```
-php artisan db:seed
+$ php artisan db:seed
 ```
 
 Test
 ------------
-Now your API is ready. Its time tests the app. For testing, You can user chrome extension <a href="https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm">POSTMAN</a> or use CURL.
+Now your API is ready. Its time tests the app. For testing, You can use chrome extension <a href="https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm">POSTMAN</a> or use CURL.
 * Get all data
 ```
 $ curl -I http://localhost:8000/api/article
