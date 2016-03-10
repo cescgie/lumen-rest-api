@@ -6,6 +6,8 @@ Table of Contents
 2. **[Installation](#installation)**
 3. **[Test](#test)**
 4. **[Routing](#routing)**
+5. **[Helpers](#helpers)**
+
 
 
 Description
@@ -79,3 +81,11 @@ Routing
 | POST | /api/article      | Add new article | {"article_name": "Coat", "article_description": "Latest article"} | {request} |
 | PUT  | /api/article/{id} | Update specific article | {"article_name": "Coat", "article_description": "Update latest article"} | {request} |
 | DELETE  | /api/article/{id} | Delete specific article by id | - | true/false|
+
+
+Helpers
+-------
+* <a href="https://www.getpostman.com/collections/54ff524c3830d2e31800">My Postman</a> for testing
+* <a href="http://wsnippets.com/create-rest-api-using-lumen-micro-framework-by-laravel/2/">Create REST API using lumen micro framework by laravel</a>
+* <a href="http://loige.co/developing-a-web-application-with-lumen-and-mysql/">Developing a web application with Lumen and MySql</a>
+* <a href="http://coderexample.com/restful-api-in-lumen-a-laravel-micro-framework/">RESTful API in Lumen, A Laravel Micro Framework</a>
