@@ -11,9 +11,11 @@
 |
 */
 
-$app->get('/', function () use ($app) {
-    return $app->version();
-});
+// $app->get('/', function () use ($app) {
+//     return $app->version();
+// });
+
+$app->get('/', 'HomeController@index');
 
 $app->group(['prefix' => 'api', 'namespace' => 'App\Http\Controllers'] , function($app){
     $app->get('/article', ['uses' => 'ArticleController@getArticles', 'as' => 'allArticles']);
